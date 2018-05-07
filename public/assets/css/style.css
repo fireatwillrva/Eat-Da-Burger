@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "BebasNeue";
+    src:url("../fonts/BebasNeue.ttf");
+    src:url("../fonts/BebasNeue.otf")
+}
+
+@font-face {
+    font-family: "elegant";
+    src:url("../fonts/elegant.ttf");
+    src:url("../fonts/elegant.otf")
+}
+
+html {
+ 	background-color: lightseagreen;
+ }
+
+ img {
+    border: 0;
+    position: relative;
+    left: 28%;
+}
+
+ body {
+ 	width: 75%;
+	margin: 0 auto; 
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	background-color: white;
+ }
+
+ h1 {
+ 	text-align: center;
+	font-family: "BebasNeue";
+ 	font-size: 100px;
+	 margin: 50px;
+	text-shadow: 2px 2px 2px grey;
+ }
+
+ .burgerAvailable {
+	font-family: "elegant";
+ 	font-weight: normal;
+ 	font-size: 49px;
+ 	text-align: center;
+	box-shadow: 4px 4px 4px grey;
+ 	border-radius: 25px;
+ 	width: 100%;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	background-color: #b7ffc2;
+ 	border: none;
+ }
+
+ .burgerAvailable:hover {
+ 	background-color: #81ff94;
+ }
+
+ .burgerEaten {
+ 	font-family: "elegant";
+ 	font-weight: normal;
+ 	font-size: 49px;
+ 	text-align: center;
+	 box-shadow: 4px 4px 4px grey;
+ 	border-radius: 25px;
+ 	margin: 10px;
+ 	padding: 10px;
+ 	background-color: #ffd1c9;
+ }
+
+ h2 {
+  	text-align: center;
+ 	font-family: "elegant";
+ 	font-size: 104px;
+	margin: 50px;
+	text-shadow: 1px 1px 1px grey;
+ }
+
+ .addBurgerButton {
+ 	font-family: "BebasNeue";
+ 	font-weight: normal;
+ 	font-size: 25px;
+ 	text-align: center;
+	box-shadow: 4px 4px 4px grey;
+ 	border-radius: 25px;
+ 	width: 100%;
+ 	padding: 10px;
+ 	background-color: #FFC04C;
+ }
+
+.addBurgerButton:active {
+	background-color: #FFC04C;
+}
+
+.addBurgerButton:hover {
+	background-color: #ffd993;
+}
+
+.burgerFooter {
+	background-color: darkgrey;
+	padding: 20px 0;
+}
